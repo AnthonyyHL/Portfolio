@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #181818;
+}
+
+body header {
+    position: absolute;
+}
+
+body section {
+    position: relative;
+}
+
+.sections {
+    margin-bottom: 120px;
+}
+
+.sections section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 96px;
+    height: calc(100vh - 96px);
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.logo-svg {
+    fill: #fff;
+}
