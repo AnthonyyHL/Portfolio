@@ -10,9 +10,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 33px;
     background: 181818;
-    padding: 33px 33px;
+    padding: 53px;
     transition: 0.5s ease-in-out;
 }
 

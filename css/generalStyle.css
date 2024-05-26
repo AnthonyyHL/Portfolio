@@ -16,22 +16,21 @@ body header {
     position: absolute;
 }
 
-body section {
-    position: relative;
-}
-
 .sections {
     margin-bottom: 120px;
 }
 
 .sections section {
+    position: relative;
+    border-radius: 8px;
+    background: rgba(200, 200, 200);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 96px;
-    height: calc(100vh - 96px);
-    width: 100%;
-    margin-bottom: 60px;
+    height: calc(100vh - 40px);
+    width: calc(100% - 40px);
+    margin: 20px;
+    overflow: hidden;
 }
 
 .logo-svg {
